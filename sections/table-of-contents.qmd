@@ -16,13 +16,13 @@
 ::: { .column .center width="33%"}
 {{< fa code size=2x >}}
 <br>
-Section 1
+Reminder of the context and issues
 :::
 
 ::: { .column .center width="33%"}
 {{< fa brands github size=2x >}}
 <br>
-Section 2
+Protocols *versus* methods
 :::
 
 ::: { .column .center width="33%"}

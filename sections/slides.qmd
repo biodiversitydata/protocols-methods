@@ -1,0 +1,230 @@
+<!-- page 1 -->
+
+# Data acquisition : reminder of the context and the issues
+
+## Data acquisition : reminder of the context and the issues
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+![](images/image-Page2016.png){width=80%}
+:::
+
+::: {.column .center width=50%}
+![](images/image-Michener1997.jpg){width=80%}
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+**Heterogeneity (data types, origin, standards) &<br/>Diversity of "objects" to be linked together**[^2]
+:::
+
+::: {.column .center width=50%}
+**Loss of information over time**[^3]
+:::
+
+::::
+
+[^2]: [Page (2016)](https://riojournal.com/article/8767)
+[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+
+<!-- page 2 -->
+
+## Data acquisition : reminder of the context and the issues
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/image-Powers2018.jpg){width=100%}
+:::
+
+::: {.column width=50%}
+![](images/image-JenkinsReproductibility.png){width=100%}
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width=50%}
+> Computational reproducibility frequently refers to the ability to generate equivalent analytical outcomes from the same data set using the same code and software[^4].
+:::
+
+::: {.column width=50%}
+> [...] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study[^5].
+:::
+
+::::
+
+[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+
+<!-- page 3 -->
+
+## Data acquisition : reminder of the context and the issues
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+![](images/image-DIKW_Pyramid.svg){width=100%}
+![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
+
+:::
+
+::: {.column .center width=33%}
+![](images/image_DataMetadata.png){width=100%}
+:::
+
+::: {.column .center width=33%}
+
+![](images/image-FAIR.png){width=100%}
+![](images/image-datalifecycle.png){width=100%}
+
+:::
+
+::::
+
+<!-- page 4 -->
+
+## Data acquisition : protocols *versus* methods
+
+**biodiversity monitoring**
+
+> "A monitoring scheme is the result of a compromise between three parameters: the size of the area surveyed, the density of sites sampled within this area and the observation effort per site" [Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+ > "Contrasted options for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with different consequences on the grain of resolution and spatial variation and, therefore, on precision and generality of the ecological patterns observed." [Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+
+:::
+
+::: {.column width=50%}
+![](images/image-data-aquisition-cube.jpg){width=100%}
+:::
+
+::::
+
+
+<!-- page 5 -->
+
+## Data acquisition : protocols *versus* methods
+
+> **Protocols** : prescriptive way of generating data
+
+> **Methods** : how the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, “batch” effects or “manipulation conditions” or other, etc.).
+
+| Characteristics of the protocol    | Scientific advantages    |
+|:------------|:-----------:|
+| Density of sites sampled | Assessment of fine-grained spatial variation, of diffuse cumulative interactions and of remote environmental effects | 
+| Monitoring of each species within a community | Assessment of the state of the community Distinction of specific versus general impacts, comparing species responses based on their ecological traits | 
+| Standardised methods of observation | Biodiversity measures can be compared in space and time (phenology, abundance, etc.) | 
+| Regular sampling (depends on generation times: annual for long-lived species like birds, but might be shorter for other species, and different in non-seasonal environments) | Assessment of fine-grained temporal variation, which can be related to environmental factors of comparable variability such as climate and land-use factors | 
+
+: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output. From [Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+
+<!-- page 6 -->
+
+## Data acquisition : protocols *versus* methods
+
+**good Level of FAIRness during data acquisition**
+
+:::: {.columns}
+
+::: {.column width=60%}
+
+- Open data (CC-BY 4.0 compatible with Etalab)
+- Mandatory license
+- Direct link to download raw datasets
+- Thematic scope (All biodiversity including paleo- and archaeo-biodiversity)
+- Geographic scope (Data produced by France)
+- Temporal coverage (at least one data acquisition date)
+- Abstract
+- Title, authors and contacts
+- Acquisition framework (at least via a text field)
+- DOI / unique identifiers
+- taxonomic coverage (if taxa are present)
+- keywords related to the Thesaurus
+- Data attributes (Dictionary of data attributes with units and descriptions)
+- Semantic annotation (Keywords and attribute names, unlimited usable resources)
+:::
+
+::: {.column width=40%}
+![](images/image-FAIR.png){width=80%}
+![](images/image-logo-pndb.jpg){width=60%}
+![](images/image-logo-ouvrir-la-science.png){width=80%}
+:::
+
+::::
+
+<!-- page XXX -->
+
+## Data acquisition : protocols *versus* methods
+
+**CAMPanule**
+
+> The **[CAMPanule project](https://inpn.mnhn.fr/programme/campanule)** (CAtalogue of Methods and Protocols) aims to identify and characterize the techniques, methods and protocols for acquiring naturalist data in France.
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/image-data-acquisition-campanule-Malaise-LSavio.jpg){width=100%}
+Example of collection technique: installation of a “Malaise” type entomological trap. ©Laura Savio
+
+:::
+
+::: {.column width=50%}
+
+![](images/image-campanule_protocole_SM2_CGazay-1.jpg){width=70%}
+![](images/image-campanule_protocole_SM2_CGazay-2.jpg){width=70%}
+
+Example of protocol: setting up an ultrasound recording device for a study on bats. © Camille Gazay
+:::
+
+::::
+
+<!-- page 6 -->
+
+## Data acquisition : protocols *versus* methods
+
+**CAMPanule**
+
+> protocols spreadsheet
+
+![](images/image-protocols-campanule.jpg){width=80%}
+
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule )
+
+<!-- page 7 -->
+
+## Data acquisition : protocols *versus* methods
+
+**CAMPanule**
+
+> methods spreadsheet
+
+![](images/image-methods-campanule.jpg){width=100%}
+
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule ) 
+
+
+# Data acquisition : resources
+
+<!-- page XXX -->
+
+## Data acquisition : resources
+
+- Catalogues des méthodes et des protocoles. Phase 1 : Étude de définition et proposition d'une démarche. Rapport MNHN-SPN 2014. Ichter J., Poncet L., Touroult J., 2014, Service du patrimoine naturel, Muséum national d'Histoire naturelle, Paris. Rapport SPN 2014 - 52. 32 p. [link](https://inpn.mnhn.fr/docs-web/docs/download/247283)
+
+- CAMPanule : partager les protocoles, méthodes et techniques de collecte de données naturalistes. Rapport d'accompagnement de la version 1. Gazay C., de Lacoste N., King-Gillies N., 2022. PatriNat. 43 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410350)
+
+- Guide technique de la base de données CAMPanule - version 1 Gazay C., 2022. PatriNat. 25 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410349)
+
+- PNDB resources on data collecting [link](https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/collecte)
+
+- GBIF resources on biodiversity data mobilization [link](https://docs.gbif.org/course-data-mobilization/en/)
