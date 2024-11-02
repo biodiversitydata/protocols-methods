@@ -4,7 +4,7 @@
   <br>
   <img src="images/readme/logo-readme.png" alt="Logo" width="200">
   <br>
-  Protocols **vs.** methods
+  Protocols vs. methods
   <br>
   Understanding differences to better collect data
   <br>
