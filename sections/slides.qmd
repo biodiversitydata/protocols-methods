@@ -1,8 +1,8 @@
 <!-- page 1 -->
 
-# Data acquisition : reminder of the context and the issues
+# {{< fa right-to-bracket size=1x >}} &nbsp;Context and issues
 
-## Data acquisition : reminder of the context and the issues
+## Context and issues
 
 :::: {.columns}
 
@@ -33,7 +33,7 @@
 
 <!-- page 2 -->
 
-## Data acquisition : reminder of the context and the issues
+## Context and issues
 
 :::: {.columns}
 
@@ -64,13 +64,16 @@
 
 <!-- page 3 -->
 
-## Data acquisition : reminder of the context and the issues
+## Context and issues
 
 :::: {.columns}
 
 ::: {.column width=33%}
 
 ![](images/image-DIKW_Pyramid.svg){width=100%}
+
+<br/>
+
 ![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
 
 :::
@@ -82,6 +85,9 @@
 ::: {.column .center width=33%}
 
 ![](images/image-FAIR.png){width=100%}
+
+<br/>
+
 ![](images/image-datalifecycle.png){width=100%}
 
 :::
@@ -90,11 +96,13 @@
 
 <!-- page 4 -->
 
-## Data acquisition : protocols *versus* methods
+# {{< fa file-pen size=1x >}} &nbsp;Protocols *vs.* methods
 
-**biodiversity monitoring**
+## Protocols *vs.* methods
 
-> "A monitoring scheme is the result of a compromise between three parameters: the size of the area surveyed, the density of sites sampled within this area and the observation effort per site" [Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+**Biodiversity monitoring**
+
+> "A monitoring scheme is the result of a compromise between three parameters: the size of the area surveyed, the density of sites sampled within this area and the observation effort per site" [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
 :::: {.columns}
 
@@ -113,31 +121,31 @@
 
 <!-- page 5 -->
 
-## Data acquisition : protocols *versus* methods
+## Protocols *vs.* methods
 
-> **Protocols** : prescriptive way of generating data
+> **Protocols**: Prescriptive way of generating data
 
-> **Methods** : how the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, “batch” effects or “manipulation conditions” or other, etc.).
+> **Methods**: How the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, “batch” effects or “manipulation conditions” or other, etc.).
 
 | Characteristics of the protocol    | Scientific advantages    |
-|:------------|:-----------:|
+|:-----------------------------------|:-------------------------|
 | Density of sites sampled | Assessment of fine-grained spatial variation, of diffuse cumulative interactions and of remote environmental effects | 
 | Monitoring of each species within a community | Assessment of the state of the community Distinction of specific versus general impacts, comparing species responses based on their ecological traits | 
 | Standardised methods of observation | Biodiversity measures can be compared in space and time (phenology, abundance, etc.) | 
 | Regular sampling (depends on generation times: annual for long-lived species like birds, but might be shorter for other species, and different in non-seasonal environments) | Assessment of fine-grained temporal variation, which can be related to environmental factors of comparable variability such as climate and land-use factors | 
 
-: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output. From [Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output. From [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
 <!-- page 6 -->
 
-## Data acquisition : protocols *versus* methods
+## Protocols *vs.* methods
 
-**good Level of FAIRness during data acquisition**
+**Good Level of FAIRness during data acquisition**
 
 :::: {.columns}
 
 ::: {.column width=60%}
-
+::: {.small}
 - Open data (CC-BY 4.0 compatible with Etalab)
 - Mandatory license
 - Direct link to download raw datasets
@@ -153,10 +161,13 @@
 - Data attributes (Dictionary of data attributes with units and descriptions)
 - Semantic annotation (Keywords and attribute names, unlimited usable resources)
 :::
+:::
 
-::: {.column width=40%}
+::: {.column .center width=40%}
 ![](images/image-FAIR.png){width=80%}
+
 ![](images/image-logo-pndb.jpg){width=60%}
+
 ![](images/image-logo-ouvrir-la-science.png){width=80%}
 :::
 
@@ -164,7 +175,7 @@
 
 <!-- page XXX -->
 
-## Data acquisition : protocols *versus* methods
+## Protocols *vs.* methods
 
 **CAMPanule**
 
@@ -172,29 +183,40 @@
 
 :::: {.columns}
 
-::: {.column width=50%}
+::: {.column .center width=50%}
 ![](images/image-data-acquisition-campanule-Malaise-LSavio.jpg){width=100%}
-Example of collection technique: installation of a “Malaise” type entomological trap. ©Laura Savio
-
 :::
 
-::: {.column width=50%}
-
+::: {.column .center width=50%}
 ![](images/image-campanule_protocole_SM2_CGazay-1.jpg){width=70%}
 ![](images/image-campanule_protocole_SM2_CGazay-2.jpg){width=70%}
-
-Example of protocol: setting up an ultrasound recording device for a study on bats. © Camille Gazay
 :::
 
 ::::
 
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+::: {.small}
+Example of collection technique: installation of a “Malaise” type entomological trap. ©Laura Savio
+:::
+:::
+
+::: {.column .center width=50%}
+::: {.small}
+Example of protocol: setting up an ultrasound recording device for a study on bats. © Camille Gazay
+:::
+:::
+::::
+
 <!-- page 6 -->
 
-## Data acquisition : protocols *versus* methods
+## Protocols *vs.* methods
 
 **CAMPanule**
 
-> protocols spreadsheet
+> Protocol spreadsheet
 
 ![](images/image-protocols-campanule.jpg){width=80%}
 
@@ -202,22 +224,22 @@ Example of protocol: setting up an ultrasound recording device for a study on ba
 
 <!-- page 7 -->
 
-## Data acquisition : protocols *versus* methods
+## Protocols *vs.* methods
 
 **CAMPanule**
 
-> methods spreadsheet
+> Method spreadsheet
 
 ![](images/image-methods-campanule.jpg){width=100%}
 
 {{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule ) 
 
 
-# Data acquisition : resources
+# {{< fa book size=1x >}} &nbsp;Resources
 
 <!-- page XXX -->
 
-## Data acquisition : resources
+## Resources
 
 - Catalogues des méthodes et des protocoles. Phase 1 : Étude de définition et proposition d'une démarche. Rapport MNHN-SPN 2014. Ichter J., Poncet L., Touroult J., 2014, Service du patrimoine naturel, Muséum national d'Histoire naturelle, Paris. Rapport SPN 2014 - 52. 32 p. [link](https://inpn.mnhn.fr/docs-web/docs/download/247283)
 

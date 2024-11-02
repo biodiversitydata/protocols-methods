@@ -14,15 +14,15 @@
 :::: { .columns }
 
 ::: { .column .center width="33%"}
-{{< fa code size=2x >}}
+{{< fa right-to-bracket size=2x >}}
 <br>
-Reminder of the context and issues
+Context and issues
 :::
 
 ::: { .column .center width="33%"}
-{{< fa brands github size=2x >}}
+{{< fa file-pen size=2x >}}
 <br>
-Protocols *versus* methods
+Protocols *vs.* methods
 :::
 
 ::: { .column .center width="33%"}

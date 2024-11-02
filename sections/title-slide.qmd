@@ -11,11 +11,11 @@
 ::: {.column .information width="68%"}
 
 ::: {.title}
-Biodiversity data: data acquisition
+Protocols **vs.** methods
 :::
 
 ::: {.subtitle}
-Protocols vs methods : an introduction
+Understanding differences to better collect data
 :::
 
 ::: {.date}
