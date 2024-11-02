@@ -181,7 +181,7 @@
 
 > Protocol example
 
-![](images/image-protocolsio1.jpg){width=80%}
+![](images/image-protocolsio1.png){width=80%}
 
 {{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.261ge4y4jv47/v3 )
 
@@ -193,9 +193,9 @@
 
 > Protocol example
 
-![](images/image-protocolsio2.jpg){width=80%}
+![](images/image-protocolsio2.png){width=80%}
 
-![](images/image-protocolsio21.jpg){width=80%}
+![](images/image-protocolsio21.png){width=80%}
 
 {{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1 )
 
