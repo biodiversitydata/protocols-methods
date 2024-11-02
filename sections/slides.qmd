@@ -214,6 +214,32 @@ Example of protocol: setting up an ultrasound recording device for a study on ba
 
 ## Protocols *vs.* methods
 
+**Protocols.io**
+
+> Protocol example
+
+![](images/image-protocolsio1.jpg){width=80%}
+
+{{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.261ge4y4jv47/v3 )
+
+<!-- page 7 -->
+
+## Protocols *vs.* methods
+
+**Protocols.io**
+
+> Protocol example
+
+![](images/image-protocolsio2.jpg){width=80%}
+
+![](images/image-protocolsio21.jpg){width=80%}
+
+{{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1 )
+
+<!-- page 8 -->
+
+## Protocols *vs.* methods
+
 **CAMPanule**
 
 > Protocol spreadsheet
@@ -222,7 +248,7 @@ Example of protocol: setting up an ultrasound recording device for a study on ba
 
 {{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule )
 
-<!-- page 7 -->
+<!-- page 9 -->
 
 ## Protocols *vs.* methods
 
