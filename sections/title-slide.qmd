@@ -11,7 +11,7 @@
 ::: {.column .information width="68%"}
 
 ::: {.title}
-Protocols **vs.** methods
+Protocols vs. methods
 :::
 
 ::: {.subtitle}

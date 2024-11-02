@@ -63,7 +63,7 @@
 
 ## Overview
 
-This repository contains files used to generate the online presentation [Protocols **vs.** methods](https://biodiversitydata.github.io/protocols-methods) based on [Quarto](https://quarto.org/) and the [RevealJS](https://quarto.org/docs/presentations/revealjs/) framework.
+This repository contains files used to generate the online presentation [Protocols vs. methods](https://biodiversitydata.github.io/protocols-methods) based on [Quarto](https://quarto.org/) and the [RevealJS](https://quarto.org/docs/presentations/revealjs/) framework.
 
 
 ## Usage
@@ -82,7 +82,7 @@ To understand the file organisation of this repository, please read this [Wiki](
 
 ## Citation
 
-Pamerlon S, Le Bras Y & Norvez O (2024) _Biodiversity data: Protocols **vs.** methods_. Online presentation available at <https://github.com/biodiversitydata/protocols-methods/>.
+Pamerlon S, Le Bras Y & Norvez O (2024) _Biodiversity data: Protocols vs. methods_. Online presentation available at <https://github.com/biodiversitydata/protocols-methods/>.
 
 
 ## Contributing
