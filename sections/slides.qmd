@@ -1,118 +1,28 @@
-<!-- page 1 -->
 
-# {{< fa right-to-bracket size=1x >}} &nbsp;Context and issues
+## Biodiversity monitoring
 
-## Context and issues
+A monitoring scheme is the result of a **compromise** between three parameters: the **size** of the area surveyed, the **density** of sites sampled within this area and the observation **effort** per site
 
-:::: {.columns}
+{{< fa quote-left >}} &nbsp;[Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
-::: {.column .center width=50%}
-![](images/image-Page2016.png){width=80%}
-:::
-
-::: {.column .center width=50%}
-![](images/image-Michener1997.jpg){width=80%}
-:::
-
-::::
+<br />
 
 :::: {.columns}
 
-::: {.column .center width=50%}
-**Heterogeneity (data types, origin, standards) &<br/>Diversity of "objects" to be linked together**[^2]
-:::
+::: {.column width=45%}
 
-::: {.column .center width=50%}
-**Loss of information over time**[^3]
-:::
+<br /><br />
 
-::::
+Contrasted options for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with different consequences on the grain of resolution and spatial variation and, therefore, on precision and generality of the ecological patterns observed.
 
-[^2]: [Page (2016)](https://riojournal.com/article/8767)
-[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
-
-<!-- page 2 -->
-
-## Context and issues
-
-:::: {.columns}
-
-::: {.column width=50%}
-![](images/image-Powers2018.jpg){width=100%}
-:::
-
-::: {.column width=50%}
-![](images/image-JenkinsReproductibility.png){width=100%}
-:::
-
-::::
-
-:::: {.columns}
-
-::: {.column width=50%}
-> Computational reproducibility frequently refers to the ability to generate equivalent analytical outcomes from the same data set using the same code and software[^4].
-:::
-
-::: {.column width=50%}
-> [...] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study[^5].
-:::
-
-::::
-
-[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
-[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
-
-<!-- page 3 -->
-
-## Context and issues
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-![](images/image-DIKW_Pyramid.svg){width=100%}
-
-<br/>
-
-![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
+{{< fa quote-left >}} &nbsp;[Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
 :::
 
-::: {.column .center width=33%}
-![](images/image_DataMetadata.png){width=100%}
+::: {.column width=10%}
 :::
 
-::: {.column .center width=33%}
-
-![](images/image-FAIR.png){width=100%}
-
-<br/>
-
-![](images/image-datalifecycle.png){width=100%}
-
-:::
-
-::::
-
-<!-- page 4 -->
-
-# {{< fa file-pen size=1x >}} &nbsp;Protocols *vs.* methods
-
-## Protocols *vs.* methods
-
-**Biodiversity monitoring**
-
-> "A monitoring scheme is the result of a compromise between three parameters: the size of the area surveyed, the density of sites sampled within this area and the observation effort per site" [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
-
-:::: {.columns}
-
-::: {.column width=50%}
-
- > "Contrasted options for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with different consequences on the grain of resolution and spatial variation and, therefore, on precision and generality of the ecological patterns observed." [Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
-
-:::
-
-::: {.column width=50%}
+::: {.column width=45%}
 ![](images/image-data-aquisition-cube.jpg){width=100%}
 :::
 
@@ -121,11 +31,28 @@
 
 <!-- page 5 -->
 
-## Protocols *vs.* methods
+## Definitions
 
-> **Protocols**: Prescriptive way of generating data
+:::: {.columns}
 
-> **Methods**: How the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, “batch” effects or “manipulation conditions” or other, etc.).
+::: {.column width=45%}
+##### Protocol
+
+Prescriptive way of generating data
+:::
+
+::: {.column width=10%}
+:::
+
+::: {.column width=45%}
+##### Method
+
+How the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, "batch" effects or "manipulation conditions" or other, etc.)
+:::
+
+::::
+
+<br />
 
 | Characteristics of the protocol    | Scientific advantages    |
 |:-----------------------------------|:-------------------------|
@@ -134,18 +61,17 @@
 | Standardised methods of observation | Biodiversity measures can be compared in space and time (phenology, abundance, etc.) | 
 | Regular sampling (depends on generation times: annual for long-lived species like birds, but might be shorter for other species, and different in non-seasonal environments) | Assessment of fine-grained temporal variation, which can be related to environmental factors of comparable variability such as climate and land-use factors | 
 
-: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output. From [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output (from [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/))
 
 <!-- page 6 -->
 
-## Protocols *vs.* methods
+## Good Level of FAIRness during data acquisition
 
-**Good Level of FAIRness during data acquisition**
 
 :::: {.columns}
 
 ::: {.column width=60%}
-::: {.small}
+
 - Open data (CC-BY 4.0 compatible with Etalab)
 - Mandatory license
 - Direct link to download raw datasets
@@ -155,12 +81,12 @@
 - Abstract
 - Title, authors and contacts
 - Acquisition framework (at least via a text field)
-- DOI / unique identifiers
-- taxonomic coverage (if taxa are present)
-- keywords related to the Thesaurus
+- DOI / Unique identifiers
+- Taxonomic coverage (if taxa are present)
+- Keywords related to the Thesaurus
 - Data attributes (Dictionary of data attributes with units and descriptions)
 - Semantic annotation (Keywords and attribute names, unlimited usable resources)
-:::
+
 :::
 
 ::: {.column .center width=40%}
@@ -175,37 +101,34 @@
 
 <!-- page 6 -->
 
-## Protocols *vs.* methods
+## Protocols.io[^1]
 
-**Protocols.io**
 
-> Protocol example
+![](images/image-protocolsio1.png){width=70% fig-align="right"}
 
-![](images/image-protocolsio1.png){width=80%}
-
-{{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.261ge4y4jv47/v3 )
+[^1]: {{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.261ge4y4jv47/v3)
 
 <!-- page 7 -->
 
-## Protocols *vs.* methods
+## Protocols.io[^2]
 
-**Protocols.io**
+![](images/image-protocolsio2.png){width=70% fig-align="right"}
 
-> Protocol example
+[^2]: {{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1)
 
-![](images/image-protocolsio2.png){width=80%}
+## Protocols.io[^3]
 
-![](images/image-protocolsio21.png){width=80%}
+![](images/image-protocolsio21.png){width=70% fig-align="right"}
 
-{{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1 )
+[^3]: {{< fa circle-right >}} &nbsp;For more information: [Protocols.io](dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1)
 
 <!-- page XXX -->
 
-## Protocols *vs.* methods
+## CAMPanule project
 
-**CAMPanule**
+The **[CAMPanule project](https://inpn.mnhn.fr/programme/campanule)** (CAtalogue of Methods and Protocols) aims to identify and characterize the techniques, methods and protocols for acquiring naturalist data in France.
 
-> The **[CAMPanule project](https://inpn.mnhn.fr/programme/campanule)** (CAtalogue of Methods and Protocols) aims to identify and characterize the techniques, methods and protocols for acquiring naturalist data in France.
+<br />
 
 :::: {.columns}
 
@@ -225,13 +148,14 @@
 
 ::: {.column .center width=50%}
 ::: {.small}
-Example of collection technique: installation of a “Malaise” type entomological trap. ©Laura Savio
+Example of collection technique: Installation of a “Malaise” type entomological trap.
+<br/>© Laura Savio
 :::
 :::
 
 ::: {.column .center width=50%}
 ::: {.small}
-Example of protocol: setting up an ultrasound recording device for a study on bats. © Camille Gazay
+Example of protocol: Setting up an ultrasound recording device for a study on bats. <br/>© Camille Gazay
 :::
 :::
 ::::
@@ -239,25 +163,25 @@ Example of protocol: setting up an ultrasound recording device for a study on ba
 
 <!-- page 8 -->
 
-## Protocols *vs.* methods
+## CAMPanule project
 
-**CAMPanule**
+The **PROTOCOL** spreadsheet
 
-> Protocol spreadsheet
+![](images/image-protocols-campanule.jpg){width=90% fig-align="center"}
 
-![](images/image-protocols-campanule.jpg){width=80%}
+<br />
 
-{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule )
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule)
 
 <!-- page 9 -->
 
-## Protocols *vs.* methods
+## CAMPanule project
 
-**CAMPanule**
+The **METHOD** spreadsheet
 
-> Method spreadsheet
+![](images/image-methods-campanule.jpg){width=100% fig-align="center"}
 
-![](images/image-methods-campanule.jpg){width=100%}
+<br />
 
 {{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule ) 
 

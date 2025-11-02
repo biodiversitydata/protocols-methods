@@ -89,6 +89,10 @@ Animation coordinator
 <code>@DataTerra</code>
 &nbsp;
 [{{< fa globe >}}](https://www.data-terra.org/)
+<br/>
+<code>@Theia</code>
+&nbsp;
+[{{< fa globe >}}](https://www.theia-land.fr/)
 :::
 
 

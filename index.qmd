@@ -22,7 +22,7 @@ engine: knitr
 <!-- Insert section 'Table of contents' -->
 
 ```{r}
-#| child: "sections/table-of-contents.qmd"
+#| child: "sections/data-lifecycle.qmd"
 ```
 
 
