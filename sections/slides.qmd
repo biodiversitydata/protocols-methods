@@ -13,9 +13,12 @@ A monitoring scheme is the result of a **compromise** between three parameters: 
 
 <br /><br />
 
-Contrasted options for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with different consequences on the grain of resolution and spatial variation and, therefore, on precision and generality of the ecological patterns observed.
+**Contrasted options** for monitoring biodiversity, depending on the size of the 
+area monitored, the density of sites and the observation effort per site, 
+with **different consequences** on the grain of resolution and spatial variation 
+and, therefore, on **precision** and **generality** of the observed **ecological patterns**.
 
-{{< fa quote-left >}} &nbsp;[Couvet *et al.,* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+{{< fa quote-left >}} &nbsp;[Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
 :::
 
@@ -35,17 +38,17 @@ Contrasted options for monitoring biodiversity, depending on the size of the are
 
 :::: {.columns}
 
-::: {.column width=45%}
-##### Protocol
+::: {.column width=30%}
+#### Protocol
 
 Prescriptive way of generating data
 :::
 
-::: {.column width=10%}
+::: {.column width=5%}
 :::
 
-::: {.column width=45%}
-##### Method
+::: {.column width=65%}
+#### Method
 
 How the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, "batch" effects or "manipulation conditions" or other, etc.)
 :::
@@ -61,7 +64,10 @@ How the protocol was applied in real conditions, with the possibility of having 
 | Standardised methods of observation | Biodiversity measures can be compared in space and time (phenology, abundance, etc.) | 
 | Regular sampling (depends on generation times: annual for long-lived species like birds, but might be shorter for other species, and different in non-seasonal environments) | Assessment of fine-grained temporal variation, which can be related to environmental factors of comparable variability such as climate and land-use factors | 
 
-: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output (from [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/))
+: Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output[^couvet]
+
+[^couvet]: From [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
+
 
 <!-- page 6 -->
 
