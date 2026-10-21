@@ -6,12 +6,12 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+  <meta name="generator" content="quarto-1.10.19">
 
   <title>Protocols vs.&nbsp;methods</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,10 +20,16 @@
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -32,7 +38,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-eb3e3524da825abfee3263651f51b2f6.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7a75d1495640f0e268313ff5922751fb.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -148,7 +154,7 @@
 <p>Understanding differences to better collect data</p>
 </div>
 <div class="date">
-<p>November 2025</p>
+<p>October 2026</p>
 </div>
 <div class="columns authors">
 <div class="column author" style="width:32%;">
@@ -202,8 +208,8 @@
 <div class="columns">
 <div class="column" style="width:45%;">
 <p><br><br></p>
-<p>Contrasted options for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with different consequences on the grain of resolution and spatial variation and, therefore, on precision and generality of the ecological patterns observed.</p>
-<p><i class="fa-solid fa-quote-left" aria-label="quote-left"></i> &nbsp;<a href="https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/">Couvet <em>et al.,</em> (2011)</a></p>
+<p><strong>Contrasted options</strong> for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with <strong>different consequences</strong> on the grain of resolution and spatial variation and, therefore, on <strong>precision</strong> and <strong>generality</strong> of the observed <strong>ecological patterns</strong>.</p>
+<p><i class="fa-solid fa-quote-left" aria-label="quote-left"></i> &nbsp;<a href="https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/">Couvet <em>et al.</em> (2011)</a></p>
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:45%;">
@@ -214,18 +220,18 @@
 <section id="definitions" class="slide level2">
 <h2>Definitions</h2>
 <div class="columns">
-<div class="column" style="width:45%;">
-<h5 id="protocol">Protocol</h5>
+<div class="column" style="width:30%;">
+<h4 id="protocol">Protocol</h4>
 <p>Prescriptive way of generating data</p>
-</div><div class="column" style="width:10%;">
+</div><div class="column" style="width:5%;">
 
-</div><div class="column" style="width:45%;">
-<h5 id="method">Method</h5>
+</div><div class="column" style="width:65%;">
+<h4 id="method">Method</h4>
 <p>How the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, “batch” effects or “manipulation conditions” or other, etc.)</p>
 </div></div>
 <p><br></p>
 <table class="caption-top">
-<caption>Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output (from <a href="https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/">Couvet <em>et al.</em> (2011)</a>)</caption>
+<caption>Table 1: Conditions proposed for extensive monitoring protocols over a large territory to maximise scientific output<sup>1</sup></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Characteristics of the protocol</th>
@@ -252,7 +258,7 @@
 </tbody>
 </table>
 <!-- page 6 -->
-</section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>From <a href="https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/">Couvet <em>et al.</em> (2011)</a></p></li></ol></aside></section>
 <section id="good-level-of-fairness-during-data-acquisition" class="slide level2">
 <h2>Good Level of FAIRness during data acquisition</h2>
 <div class="columns">
@@ -288,7 +294,7 @@
 </figure>
 </div>
 <!-- page 7 -->
-<aside><ol class="aside-footnotes"><li id="fn1"><p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="dx.doi.org/10.17504/protocols.io.261ge4y4jv47/v3">Protocols.io</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="dx.doi.org/10.17504/protocols.io.261ge4y4jv47/v3">Protocols.io</a></p></li></ol></aside></section>
 <section id="protocols.io2" class="slide level2">
 <h2>Protocols.io<sup>1</sup></h2>
 <div class="quarto-figure quarto-figure-right">
@@ -296,7 +302,7 @@
 <p><img data-src="images/image-protocolsio2.png" class="quarto-figure quarto-figure-right" style="width:70.0%"></p>
 </figure>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn2"><p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1">Protocols.io</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn3"><p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1">Protocols.io</a></p></li></ol></aside></section>
 <section id="protocols.io3" class="slide level2">
 <h2>Protocols.io<sup>1</sup></h2>
 <div class="quarto-figure quarto-figure-right">
@@ -305,7 +311,7 @@
 </figure>
 </div>
 <!-- page XXX -->
-<aside><ol class="aside-footnotes"><li id="fn3"><p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1">Protocols.io</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn4"><p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="dx.doi.org/10.17504/protocols.io.36wgqnm9ygk5/v1">Protocols.io</a></p></li></ol></aside></section>
 <section id="campanule-project" class="slide level2">
 <h2>CAMPanule project</h2>
 <p>The <strong><a href="https://inpn.mnhn.fr/programme/campanule">CAMPanule project</a></strong> (CAtalogue of Methods and Protocols) aims to identify and characterize the techniques, methods and protocols for acquiring naturalist data in France.</p>
@@ -352,11 +358,11 @@
 <p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://inpn.mnhn.fr/programme/campanule">CAMPanule</a></p>
 </section>
 <section>
-<section id="resources" class="title-slide slide level1 center">
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120626f6f6b2073697a653d3178203e7d7d-resources" class="title-slide slide level1 center">
 <h1><i class="fa-solid fa-book fa-1x" aria-label="book"></i> &nbsp;Resources</h1>
 <!-- page XXX -->
 </section>
-<section id="resources-1" class="slide level2">
+<section id="resources" class="slide level2">
 <h2>Resources</h2>
 <ul>
 <li><p>Catalogues des méthodes et des protocoles. Phase 1 : Étude de définition et proposition d’une démarche. Rapport MNHN-SPN 2014. Ichter J., Poncet L., Touroult J., 2014, Service du patrimoine naturel, Muséum national d’Histoire naturelle, Paris. Rapport SPN 2014 - 52. 32 p.&nbsp;<a href="https://inpn.mnhn.fr/docs-web/docs/download/247283">link</a></p></li>
