@@ -82,7 +82,7 @@ To understand the file organisation of this repository, please read this [Wiki](
 
 ## Citation
 
-Pamerlon S, Le Bras Y & Norvez O (2025) Protocols vs. methods: Understanding differences to better collect data. Online presentation available at <https://github.com/biodiversitydata/protocols-methods/>.
+Pamerlon S, Le Bras Y & Norvez O (2026) _Protocols vs. methods: Understanding differences to better collect data_. Online presentation available at <https://github.com/biodiversitydata/protocols-methods/>.
 
 
 ## Contributing
