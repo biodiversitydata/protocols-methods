@@ -177,7 +177,7 @@ The **PROTOCOL** spreadsheet
 
 <br />
 
-{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule)
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://campanule.mnhn.fr/)
 
 <!-- page 9 -->
 
@@ -189,7 +189,7 @@ The **METHOD** spreadsheet
 
 <br />
 
-{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://inpn.mnhn.fr/programme/campanule ) 
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://campanule.mnhn.fr/) 
 
 
 # {{< fa book size=1x >}} &nbsp;Resources
@@ -204,6 +204,6 @@ The **METHOD** spreadsheet
 
 - Guide technique de la base de données CAMPanule - version 1 Gazay C., 2022. PatriNat. 25 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410349)
 
-- PNDB resources on data collecting [link](https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/collecte)
+- PNDB resources on data collecting [link](https://www.pndb.fr/explore/?orderBy=updated_at+DESC&refines=category%3AServices+et+produits&refines=services.service-type%3ACollecte)
 
 - GBIF resources on biodiversity data mobilization [link](https://docs.gbif.org/course-data-mobilization/en/)
