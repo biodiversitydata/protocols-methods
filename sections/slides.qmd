@@ -1,4 +1,5 @@
 
+
 ## Biodiversity monitoring
 
 A monitoring scheme is the result of a **compromise** between three parameters: the **size** of the area surveyed, the **density** of sites sampled within this area and the observation **effort** per site
@@ -33,6 +34,18 @@ and, therefore, on **precision** and **generality** of the observed **ecological
 
 
 <!-- page 5 -->
+
+## Definitions
+> Detailed study plan explaining how data should be collected to answer a scientific question. It comprises: 
+- a sampling plan that defines the rules for selecting the units;
+- one or more techniques and/or methods to be applied; 
+- additional application rules (e.g. frequency, weather conditions, etc.).
+A protocol is standardised when it is precisely defined in a reference document and applicable by different operators in various territories.[Campanule, 2023](https://campanule.mnhn.fr/concepts-et-definitions/)
+
+> a monitoring protocol is understood to be a structured set of procedures,methodologies, and guidelines designed for collecting biodiversity information. A protocol comprises several components, including a sampling plan that specifies the rules for selecting sampling units or sites, one or more techniques and methods
+to be applied for data collection, and additional application rules, such as the frequency of monitoring and considerations for weather conditions
+(Schmeller et al., 2015).
+
 
 ## Definitions
 
@@ -207,3 +220,5 @@ The **METHOD** spreadsheet
 - PNDB resources on data collecting [link](https://www.pndb.fr/explore/?orderBy=updated_at+DESC&refines=category%3AServices+et+produits&refines=services.service-type%3ACollecte)
 
 - GBIF resources on biodiversity data mobilization [link](https://docs.gbif.org/course-data-mobilization/en/)
+
+- Guide on harmonising biodiversity monitoring protocols across scales [link](https://hal.science/hal-04300324/)
