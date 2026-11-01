@@ -39,7 +39,18 @@
 
 <!-- page X -->
 
-## Biodiversity monitoring
+## Context and issues : *biodiversity monitoring*
+
+> The act of publishing research serves to communicate discoveries and results. However, to truly advance knowledge and scientific understanding, scientists are expected to share material, methods, and data so that others may reproduce and build upon the published work [^teytelman]
+
+> In the realm of biodiversity conservation, the imperative to harmonise monitoring protocols is paramount, driven by the need to enhance the comparability of data and thereby facilitate more effective conservation measures[^biodiversa].
+
+[^teytelman]: [Teytelman _et al_, (2016)](https://doi.org/10.1371/journal.pbio.1002538)
+[^biodiversa]: [Biodiversa+](https://hal.science/hal-04300324/)
+
+<!-- page X -->
+
+## Context and issues : *biodiversity monitoring*
 
 A monitoring scheme is the result of a **compromise** between three parameters: the **size** of the area surveyed, the **density** of sites sampled within this area and the observation **effort** per site
 
@@ -75,16 +86,29 @@ and, therefore, on **precision** and **generality** of the observed **ecological
 <!-- page 5 -->
 
 ## Definitions
-> Detailed study plan explaining how data should be collected to answer a scientific question. It comprises: 
+
+> A **protocol** is a detailed study plan explaining how data should be collected to answer a scientific question. It comprises: 
 - a sampling plan that defines the rules for selecting the units;
 - one or more techniques and/or methods to be applied; 
 - additional application rules (e.g. frequency, weather conditions, etc.).
-A protocol is standardised when it is precisely defined in a reference document and applicable by different operators in various territories.[Campanule, 2023](https://campanule.mnhn.fr/concepts-et-definitions/)
+A protocol is standardised when it is precisely defined in a reference document and applicable by different operators in various territories[^campanule].
 
-> a monitoring protocol is understood to be a structured set of procedures,methodologies, and guidelines designed for collecting biodiversity information. A protocol comprises several components, including a sampling plan that specifies the rules for selecting sampling units or sites, one or more techniques and methods
-to be applied for data collection, and additional application rules, such as the frequency of monitoring and considerations for weather conditions
-(Schmeller et al., 2015).
+> A **technique** refers to the set of specific skills, processes, and/or tools employed to collect data associated with a parameter under observation. This concept is concrete in nature; a technique is implemented with the aim of achieving a precise result (Le Robert, 2022)[^campanule].
 
+> A **method** corresponds to a logical principle designed to address a simple, general question (for example, estimating a population size) through the organized collection of data. This concept is theoretical and general in nature, and can be applied in various ways depending on the target and the objective of the study[^campanule].
+
+*Or*
+
+A **method** is a reproducible process with the aim of achieving an objective (e.g. estimation of a population size) by data collection. A method mobilises one or more techniques for the acquisition of data in the field, and can be part of a standardised protocol[^biodiversa][^esmeralda].
+
+[^campanule]: [Campanule, 2023](https://campanule.mnhn.fr/concepts-et-definitions/)
+[^biodiversa]: [Biodiversa+](https://hal.science/hal-04300324/)
+[^esmeralda]: [Esmeralda project](https://oneecosystem.pensoft.net/articles.php?id=27110)
+
+
+## Definitions
+
+![](images/image-protocol-stoc.png){width=100%}
 
 ## Definitions
 
@@ -266,11 +290,11 @@ The **METHOD** spreadsheet
 
 ## Resources
 
-- Catalogues des méthodes et des protocoles. Phase 1 : Étude de définition et proposition d'une démarche. Rapport MNHN-SPN 2014. Ichter J., Poncet L., Touroult J., 2014, Service du patrimoine naturel, Muséum national d'Histoire naturelle, Paris. Rapport SPN 2014 - 52. 32 p. [link](https://inpn.mnhn.fr/docs-web/docs/download/247283)
-
-- CAMPanule : partager les protocoles, méthodes et techniques de collecte de données naturalistes. Rapport d'accompagnement de la version 1. Gazay C., de Lacoste N., King-Gillies N., 2022. PatriNat. 43 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410350)
-
 - Guide technique de la base de données CAMPanule - version 1 Gazay C., 2022. PatriNat. 25 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410349)
+
+- CAMPanule : partager les protocoles, méthodes et techniques de collecte de données naturalistes. Rapport d'accompagnement de la version 1. Gazay C., de Lacoste N., King-Gillies N., 2022. PatriNat. 43 p. [Link](https://hal.science/mnhn-04135878v1)
+
+- CAMPanule [Link](https://campanule.mnhn.fr/) => [temporary link](https://assets.patrinat.fr/files/referentiel/CAMPANULE.zip)
 
 - Protocols.io [Link](https://www.protocols.io/)
 
@@ -278,4 +302,4 @@ The **METHOD** spreadsheet
 
 - GBIF resources on biodiversity data mobilization [link](https://docs.gbif.org/course-data-mobilization/en/)
 
-- Guide on harmonising biodiversity monitoring protocols across scales [link](https://hal.science/hal-04300324/)
+- Guide on harmonising biodiversity monitoring protocols across scales. Biodiversa + [link](https://hal.science/hal-04300324/)
