@@ -4,8 +4,8 @@
 
 ## Context and issues :
 
-- **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^2]
-- **Loss of information** over time[^3]
+- **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^page]
+- **Loss of information** over time[^michener]
 - Toward a better **open science** and **reproducibility** [^4]^,^ [^5]
 
 :::: {.columns}
@@ -27,61 +27,38 @@
 ![](images/image-datalifecycle.png){width=100%}
 
 :::
-
 ::::
 
-[^2]: [Page (2016)](https://riojournal.com/article/8767)
-[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+[^page]: [Page (2016)](https://riojournal.com/article/8767)
+[^michener]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
 [^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
 [^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
-
-
-
+ 
 <!-- page X -->
 
 ## Context and issues : *biodiversity monitoring*
 
-> The act of publishing research serves to communicate discoveries and results. However, to truly advance knowledge and scientific understanding, scientists are expected to share material, methods, and data so that others may reproduce and build upon the published work [^teytelman]
+> A monitoring scheme is the result of a **compromise** between three parameters: the **size** of the area surveyed, the **density** of sites sampled within this area and the observation **effort** per site[^couvet].
 
 > In the realm of biodiversity conservation, the imperative to harmonise monitoring protocols is paramount, driven by the need to enhance the comparability of data and thereby facilitate more effective conservation measures[^biodiversa].
-
-[^teytelman]: [Teytelman _et al_, (2016)](https://doi.org/10.1371/journal.pbio.1002538)
-[^biodiversa]: [Biodiversa+](https://hal.science/hal-04300324/)
-
-<!-- page X -->
-
-## Context and issues : *biodiversity monitoring*
-
-A monitoring scheme is the result of a **compromise** between three parameters: the **size** of the area surveyed, the **density** of sites sampled within this area and the observation **effort** per site
-
-{{< fa quote-left >}} &nbsp;[Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
 <br />
 
 :::: {.columns}
 
-::: {.column width=45%}
+::: {.column width=60%}
 
-<br /><br />
-
-**Contrasted options** for monitoring biodiversity, depending on the size of the 
-area monitored, the density of sites and the observation effort per site, 
-with **different consequences** on the grain of resolution and spatial variation 
-and, therefore, on **precision** and **generality** of the observed **ecological patterns**.
-
-{{< fa quote-left >}} &nbsp;[Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
-
+**Contrasted options** for monitoring biodiversity, depending on the size of the area monitored, the density of sites and the observation effort per site, with **different consequences** on the grain of resolution and spatial variation and, therefore, on **precision** and **generality** of the observed **ecological patterns**[^couvet].
 :::
 
-::: {.column width=10%}
-:::
-
-::: {.column width=45%}
-![](images/image-data-aquisition-cube.jpg){width=100%}
+::: {.column width=40%}
+![[Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)](images/image-data-aquisition-cube.jpg){width=90%}
 :::
 
 ::::
 
+[^biodiversa]: [Biodiversa+](https://hal.science/hal-04300324/)
+[^couvet]: [Couvet *et al.* (2011)](https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2011.02.007/)
 
 <!-- page 5 -->
 
@@ -95,11 +72,7 @@ A protocol is standardised when it is precisely defined in a reference document 
 
 > A **technique** refers to the set of specific skills, processes, and/or tools employed to collect data associated with a parameter under observation. This concept is concrete in nature; a technique is implemented with the aim of achieving a precise result (Le Robert, 2022)[^campanule].
 
-> A **method** corresponds to a logical principle designed to address a simple, general question (for example, estimating a population size) through the organized collection of data. This concept is theoretical and general in nature, and can be applied in various ways depending on the target and the objective of the study[^campanule].
-
-*Or*
-
-A **method** is a reproducible process with the aim of achieving an objective (e.g. estimation of a population size) by data collection. A method mobilises one or more techniques for the acquisition of data in the field, and can be part of a standardised protocol[^biodiversa][^esmeralda].
+> A **method** is a reproducible process with the aim of achieving an objective (e.g. estimation of a population size) by data collection. A method mobilises one or more techniques for the acquisition of data in the field, and can be part of a standardised protocol[^biodiversa][^esmeralda].
 
 [^campanule]: [Campanule, 2023](https://campanule.mnhn.fr/concepts-et-definitions/)
 [^biodiversa]: [Biodiversa+](https://hal.science/hal-04300324/)
@@ -108,7 +81,7 @@ A **method** is a reproducible process with the aim of achieving an objective (e
 
 ## Definitions
 
-![](images/image-protocol-stoc.png){width=100%}
+![[Source : CAMPanule, 2022](https://hal.science/mnhn-04135878v1)](images/image-protocol-stoc.png){width=60%}
 
 ## Definitions
 
@@ -187,16 +160,17 @@ How the protocol was applied in real conditions, with the possibility of having 
 
 :::: {.columns}
 
-::: {.column width=90%}
+::: {.column width=50%}
 > By sharing methods on protocols.io in your company or lab, you make sure that knowledge stays with the team, even if the scientist leaves. It also helps to keep the protocols up-to-date and make sure everyone is using the most recent version.
 :::
-::: {.column width=10%}
+::: {.column width=50%}
 
-![](images/image-logo-protocol.png){width=70% fig-align="right"}
+![](images/image-logo-protocol.png){width=100% fig-align="right"}
 :::
 ::::
 
-<iframe width="884" height="497" src="https://www.youtube.com/embed/GY15cGfH9TU" title="Advanced AI Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**To discover Protocols.io** [Link](https://www.youtube.com/embed/GY15cGfH9TU)
 
 <!-- page 6 -->
 
