@@ -1,4 +1,43 @@
+# Context and issues
 
+<!-- page X -->
+
+## Context and issues :
+
+- **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^2]
+- **Loss of information** over time[^3]
+- Toward a better **open science** and **reproducibility** [^4]^,^ [^5]
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+![](images/image-DIKW_Pyramid.svg){width=70%}
+![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
+
+:::
+
+::: {.column .center width=33%}
+![](images/image_DataMetadata.png){width=100%}
+:::
+
+::: {.column .center width=33%}
+
+![](images/image-FAIR_CARE.png){width=100%}
+![](images/image-datalifecycle.png){width=100%}
+
+:::
+
+::::
+
+[^2]: [Page (2016)](https://riojournal.com/article/8767)
+[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+
+
+
+<!-- page X -->
 
 ## Biodiversity monitoring
 
@@ -120,8 +159,24 @@ How the protocol was applied in real conditions, with the possibility of having 
 
 <!-- page 6 -->
 
-## Protocols.io[^1]
+## Protocols.io
 
+:::: {.columns}
+
+::: {.column width=90%}
+> By sharing methods on protocols.io in your company or lab, you make sure that knowledge stays with the team, even if the scientist leaves. It also helps to keep the protocols up-to-date and make sure everyone is using the most recent version.
+:::
+::: {.column width=10%}
+
+![](images/image-logo-protocol.png){width=70% fig-align="right"}
+:::
+::::
+
+<iframe width="884" height="497" src="https://www.youtube.com/embed/GY15cGfH9TU" title="Advanced AI Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- page 6 -->
+
+## Protocols.io[^1]
 
 ![](images/image-protocolsio1.png){width=70% fig-align="right"}
 
@@ -190,7 +245,7 @@ The **PROTOCOL** spreadsheet
 
 <br />
 
-{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://campanule.mnhn.fr/)
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://campanule.mnhn.fr/) => [temporary link](https://assets.patrinat.fr/files/referentiel/CAMPANULE.zip)
 
 <!-- page 9 -->
 
@@ -202,7 +257,7 @@ The **METHOD** spreadsheet
 
 <br />
 
-{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://campanule.mnhn.fr/) 
+{{< fa circle-right >}} &nbsp;For more information: [CAMPanule](https://campanule.mnhn.fr/) => [temporary link](https://assets.patrinat.fr/files/referentiel/CAMPANULE.zip)
 
 
 # {{< fa book size=1x >}} &nbsp;Resources
@@ -216,6 +271,8 @@ The **METHOD** spreadsheet
 - CAMPanule : partager les protocoles, méthodes et techniques de collecte de données naturalistes. Rapport d'accompagnement de la version 1. Gazay C., de Lacoste N., King-Gillies N., 2022. PatriNat. 43 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410350)
 
 - Guide technique de la base de données CAMPanule - version 1 Gazay C., 2022. PatriNat. 25 p. [Link](https://inpn.mnhn.fr/docs-web/docs/download/410349)
+
+- Protocols.io [Link](https://www.protocols.io/)
 
 - PNDB resources on data collecting [link](https://www.pndb.fr/explore/?orderBy=updated_at+DESC&refines=category%3AServices+et+produits&refines=services.service-type%3ACollecte)
 
