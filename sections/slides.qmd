@@ -70,9 +70,11 @@
 - additional application rules (e.g. frequency, weather conditions, etc.).
 A protocol is standardised when it is precisely defined in a reference document and applicable by different operators in various territories[^campanule].
 
+> A **method** is a reproducible process with the aim of achieving an objective (e.g. estimation of a population size) by data collection. A method mobilises one or more techniques for the acquisition of data in the field, and can be part of a standardised protocol[^biodiversa][^esmeralda].
+
 > A **technique** refers to the set of specific skills, processes, and/or tools employed to collect data associated with a parameter under observation. This concept is concrete in nature; a technique is implemented with the aim of achieving a precise result (Le Robert, 2022)[^campanule].
 
-> A **method** is a reproducible process with the aim of achieving an objective (e.g. estimation of a population size) by data collection. A method mobilises one or more techniques for the acquisition of data in the field, and can be part of a standardised protocol[^biodiversa][^esmeralda].
+
 
 [^campanule]: [Campanule, 2023](https://campanule.mnhn.fr/concepts-et-definitions/)
 [^biodiversa]: [Biodiversa+](https://hal.science/hal-04300324/)
@@ -85,25 +87,8 @@ A protocol is standardised when it is precisely defined in a reference document 
 
 ## Definitions
 
-:::: {.columns}
-
-::: {.column width=30%}
-#### Protocol
-
-Prescriptive way of generating data
-:::
-
-::: {.column width=5%}
-:::
-
-::: {.column width=65%}
-#### Method
-
-How the protocol was applied in real conditions, with the possibility of having adapted the protocol to adapt it to the constraints of the manipulations and above all the information of numerous important pieces of information for the reuse of the data, in particular their analysis (problems which appeared, "batch" effects or "manipulation conditions" or other, etc.)
-:::
-
-::::
-
+<br />
+<br />
 <br />
 
 | Characteristics of the protocol    | Scientific advantages    |
